@@ -2,6 +2,9 @@
 
 ### making a Scheduling API by Django REST Framework
 
+##### ABSTRACT: 
+###### Django API for scheduling. The application is build in python Django REST framework. The django model accepts two parameters url and time.The Specification defines an API to Schedule a task on a Specified time. The task is to return the url if it matches the time specified mentioned. if it matches the
+
 ### Working mechanism:
     1. first we have to call the API with a url_for_site containng a url and a timestamp containing a date and time in specific format and It would be a POST call. This will schedule the task for us.
 
